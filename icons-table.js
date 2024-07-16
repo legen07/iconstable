@@ -30,7 +30,7 @@ function setIcons() {
       
         allIconsObject[svgName].forEach((each) => {
           let path = `<path d="${each[1].d}"/>`;
-          $("svg")[i].insertAdjacentHTML("afterbegin", path);
+          $("[icon]")[i].insertAdjacentHTML("afterbegin", path);
         });
 
       }else{
