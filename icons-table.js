@@ -3,7 +3,7 @@
 function setIcons() {
   !localStorage.icons &&
     fetch(
-      "https://cdn.jsdelivr.net/npm/@tabler/icons@3.2.0/tabler-nodes-outline.json",
+      "https://cdn.jsdelivr.net/npm/@tabler/icons@3.11.0/tabler-nodes-outline.json",
       { priority: "high" }
     )
       .then((outJsonUrl) => outJsonUrl.json())
